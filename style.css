@@ -45,6 +45,10 @@ article {
 }
 article:first-child {
   background-color: var(--clr-primary-400);
+  background-image: url('./images/bg-pattern-quotation.svg');
+background-repeat: no-repeat;
+background-position-y: 0%;
+background-position-x: 75%;
 }
 article:nth-child(2) {
   background-color: var(--clr-primary-600);
@@ -92,7 +96,7 @@ h2 {
   font-weight: var(--fw-600);
 }
 
-@media screen and (min-width: 50em) {
+@media screen and (min-width: 70em) {
   body{
     align-items: center;
     justify-content: center;
